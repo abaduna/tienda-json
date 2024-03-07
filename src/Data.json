@@ -1,0 +1,34 @@
+[
+    {
+        "UrlImage":"",
+        "precis":600,
+        "id":0,
+        "title":"zapatos",
+        "descripcion":"Lorem"
+
+    },{
+        "UrlImage":"",
+        "precis":600,
+        "id":1,
+        "title":"ojotas",
+        "descripcion":"Lorem"
+
+
+    },{
+        "UrlImage":"",
+        "precis":600,
+        "id":2,
+        "title":"remera",
+        "descripcion":"Lorem"
+
+
+    },{
+        "UrlImage":"",
+        "precis":600,
+        "id":3,
+        "title":"pantalon",
+        "descripcion":"Lorem"
+
+
+    }
+]

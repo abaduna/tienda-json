@@ -5,7 +5,7 @@ const WhatsAppLink = ({ caritoDeCompras}) => {
     const [totalPrecio, setTotalPrecio] = useState(0);
   // Formatear el número de teléfono eliminando caracteres no numéricos
   const formattedPhoneNumber = 5493413592493
-  const total = caritoDeCompras.reduce((acc, producto) => acc + parseFloat(producto.precio), 0);
+  const total = caritoDeCompras.reduce((acc, producto) => acc + parseFloat(producto.precis), 0);
   
 
   const titulos = caritoDeCompras.map(producto => producto.title);

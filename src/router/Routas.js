@@ -5,17 +5,17 @@ import {
     Navigate,
   } from "react-router-dom";
 
-import SubirProductos from "..//pages/SubirProductos/SubirProductos"
+
 import VerProductos from "../pages/VerProductos/VerProductos"
-import Login from "../pages/login/Login";
+import Datails from "../pages/Datails/Datails";
+
 // soluciones 1) hacer un renderizado condicional 2) armar un layout 3)Armar un Hoc 4) Armar un layout en una ruta privada
   const RoutesPrincial =()=>{
     return(
         <Router>
             <Routes>
                 <Route path="/" element={<VerProductos/>}/>
-                <Route path="/subirProducto" element={<SubirProductos/>}/>
-                <Route path="/login" element={<Login/>}/>
+                <Route path="/Datalles/:id" element={<Datails/>}/>
                 
                 <Route
                 path="*"

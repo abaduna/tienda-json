@@ -1,7 +1,7 @@
 
 import './App.css';
 import {CaritoComprarProvider} from "../src/contexts/carito"
-import RoutesPrincial from './route/Routas';
+import RoutesPrincial from './router/Routas';
 function App() {
   return (
     <div className="App">
